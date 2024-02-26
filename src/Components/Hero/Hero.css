@@ -1,0 +1,86 @@
+/* Hero Section */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: calc(90vh - 40px); /* Adjusted for padding */
+  padding: 20px;
+  margin: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Content */
+.hero-content {
+  max-width: 45%;
+  color: white;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+/* Explore Button */
+.explore-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4141;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explore-btn img {
+  margin-left: 10px;
+}
+
+.explore-btn:hover {
+  transform: scale(1.05);
+  background-color: #d63030;
+}
+/* Explore Button */
+.explore-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4141;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.explore-btn svg {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.explore-btn:hover {
+  transform: scale(1.05);
+  background-color: #d63030;
+}
+
+.explore-btn:hover svg {
+  transform: translateX(5px);
+}
+
+.hero-content{
+  justify-content: flex-end;
+}

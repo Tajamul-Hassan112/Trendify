@@ -1,0 +1,118 @@
+.signup-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex-basis: calc(50% - 10px); /* Two fields per row */
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btnsign {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color:green;
+  color: rosybrown;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.or-separator {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-signup {
+  display: flex;
+  justify-content: center;
+}
+
+.social-signup button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-google {
+  background-color: #db4437; /* Google Red */
+  color: #fff;
+}
+
+.btn-google:hover {
+  background-color: #c1351b; /* Darker Google Red */
+}
+
+.btn-github {
+  background-color: #24292e; /* GitHub Dark */
+  color: #fff;
+}
+
+.btn-github:hover {
+  background-color: #171a1d; /* Darker GitHub Dark */
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.btn-google {
+  background-color: #db4437; /* Google Red */
+}
+
+.btn-google:hover {
+  background-color: #c1351b; /* Darker Google Red */
+}
+
+.btn-github {
+  background-color: #24292e; /* GitHub Dark */
+}
+
+.btn-github:hover {
+  background-color: #171a1d; /* Darker GitHub Dark */
+}

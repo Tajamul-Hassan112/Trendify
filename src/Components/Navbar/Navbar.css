@@ -1,0 +1,25 @@
+/* Navbar.css */
+
+/* Add your existing styles for the Navbar component */
+
+/* Styles for the active link */
+.active {
+    position: relative; /* Ensure relative positioning for absolute positioned pseudo-element */
+    text-decoration: none; /* Remove default underline */
+    color: #ff1441; /* Set the color of the text */
+}
+
+.active::after {
+    content: ''; /* Create the pseudo-element */
+    position: absolute; /* Position it relative to the parent link */
+    bottom: -2px; /* Adjust as needed to align with text */
+    left: 0; /* Align with the start of the text */
+    width: 0; /* Initially no width */
+    height: 2px; /* Height of the underline */
+    background-color: #ff1441; /* Color of the underline */
+    transition: width 0.3s ease; /* Add transition effect */
+}
+
+.active:hover::after {
+    width: 100%; /* Increase width on hover for animation */
+}

@@ -1,0 +1,57 @@
+.payments-page {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .payment-method {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .payment-method.selected {
+    background-color: #f0f0f0;
+  }
+  
+  .payment-icon {
+    margin-right: 10px;
+  }
+  
+  .payment-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .pay-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-confirmation {
+    background-color: #dff0d8;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
